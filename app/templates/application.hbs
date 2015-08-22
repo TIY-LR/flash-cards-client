@@ -1,11 +1,5 @@
 <h1 id="title">Welcome to The Flashyard!</h1>
 
-
-
-
-<p>
-{{!-- ember-cli-materialize modal container --}}
-{{md-modal-container}}
 {{#md-card title="Yard-Cards"
     titleClass="grey-text"
     image="images/ember-9a2571346ddbec766fbe11304e74e784.png"
@@ -25,8 +19,8 @@
         {{#link-to "cards"}}CSS{{/link-to}}
         {{#link-to "cards"}}Javascript{{/link-to}}
     {{/md-card-action}}
-    {{/md-card}}
-    </p>
+{{/md-card}}
+
     {{outlet}}
     <div class="card">
     <div class="card-image waves-effect waves-block waves-light">
@@ -41,3 +35,6 @@
       <p>Here is some more information about this product that is only revealed once clicked on.</p>
     </div>
   </div>
+
+{{!-- ember-cli-materialize modal container --}}
+{{md-modal-container}}

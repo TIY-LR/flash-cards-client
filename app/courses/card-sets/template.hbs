@@ -1,5 +1,5 @@
-{{#each model as |cardsets|}}
-    <h2>{{cardsets.name}}</h2>
-    <h2>{{cardsets.description}}</h2>
-
+{{!-- model is the current course --}}
+{{#each model.cardsets as |cardset|}}
+    <h2>{{cardset.name}}</h2>
+    <h2>{{cardset.description}}</h2>
 {{/each}}

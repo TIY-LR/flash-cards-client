@@ -1,3 +1,12 @@
+{{!-- {{#md-navbar homeRoute='courses.card-sets.cards.index' name='Flash Cards' class='indigo'}}
+{{/md-navbar}} --}}
 <h2 id="title">Welcome to Ember</h2>
 
+    <ul>
+        <li>{{#link-to 'courses'}}Courses{{/link-to}}</li>
+        {{!-- <li>{{#link-to 'courses.card-sets'}}Card Sets{{/link-to}}</li> --}}
+    </ul>
+
 {{outlet}}
+{{md-modal-container}}
+

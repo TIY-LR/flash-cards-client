@@ -1,3 +1,5 @@
-{{!-- <h4>Test</h4> --}}
+{{#each model as |cardsets|}}
+    <h2>{{cardsets.name}}</h2>
+    <h2>{{cardsets.description}}</h2>
 
-{{outlet}}
+{{/each}}

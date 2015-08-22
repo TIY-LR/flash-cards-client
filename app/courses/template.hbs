@@ -1,2 +1,5 @@
-<h4>test</h4>
-{{outlet}}
+{{#each model as |courses|}}
+    <h2>{{courses.name}}</h2>
+    <h2>{{courses.description}}</h2>
+
+{{/each}}

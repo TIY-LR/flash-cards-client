@@ -25,9 +25,11 @@ module.exports = function(environment) {
     'img-src': "'self' data:",
     'style-src': "'self'",
     'media-src': "'self'"
-    }
+    },
+  sassOptions: {
+  includePaths: ['bower_components/materialize/sass']
+  }
   };
-
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;

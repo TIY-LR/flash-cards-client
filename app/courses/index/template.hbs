@@ -1,3 +1,6 @@
+<h2>Courses</h2>
+
+{{!-- Shows a list of courses and links to the cardsets for that course --}}
 {{#md-collection content=model as |course|}}
     {{#link-to 'courses.card-sets' course.id class='collection-item'}}
         {{course.name}}

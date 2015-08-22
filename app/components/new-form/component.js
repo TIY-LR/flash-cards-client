@@ -2,7 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
    resetFormValues: function() {
-    var values = this.get(this.get('card')).toJSON();
+    var values = this.get('card').toJSON();
     this.setProperties(values);
   }.on('init'),
 

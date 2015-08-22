@@ -8,7 +8,7 @@ export default Ember.Route.extend({
     delete: function(card) {
       card.destroyRecord();
 
-      this.transitionTo('cards.index');
+      this.transitionTo('courses.card-sets.cards.index');
     }
   }
 });

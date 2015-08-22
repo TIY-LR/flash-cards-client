@@ -1,12 +1,11 @@
 
 <li>{{#link-to 'courses.card-sets.cards.create'}}New Items{{/link-to}}</li>
-{{#each model as |card|}}
+{{#each model.cards as |card|}}
     <h2>{{card.name}}</h2>
     <h2>{{card.description}}</h2>
-
 {{/each}}
 
-{{#md-card title="Card Title"
+{{!-- {{#md-card title="Card Title"
     image="images/ember-cli-97c3f0d28532b75fa808f590062af5de.png"
     activator=true
     id="card-reveal"}}
@@ -19,4 +18,4 @@
         Here is some more information about this product that is only revealed once clicked on.
     {{/md-card-reveal}}
 
-{{/md-card}}
+{{/md-card}} --}}

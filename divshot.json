@@ -1,0 +1,9 @@
+{
+  "name": "tiy-lr-flashcards",
+  "root": "./dist",
+  "routes": {
+    "/tests": "tests/index.html",
+    "/tests/**": "tests/index.html",
+    "/**": "index.html"
+  }
+}

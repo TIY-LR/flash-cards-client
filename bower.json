@@ -16,5 +16,6 @@
   },
   "resolutions": {
     "jquery": "^1.11.3"
+    "pure": "~0.6.0"
   }
 }

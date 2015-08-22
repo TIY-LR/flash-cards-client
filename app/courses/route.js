@@ -8,16 +8,12 @@ export default Ember.Route.extend({
     return [
       {
         id: 1,
-        name: 'The Flashyard (wizards only)'
+        name: 'Front-Engineering'
       },
       {
         id: 2,
-        name: 'Droppin That Flashyard Knowledge.'
+        name: '.NET'
       },
-      {
-        id: 3,
-        name: 'Front End'
-      }
     ];
   }
 });

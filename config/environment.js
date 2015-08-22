@@ -30,7 +30,6 @@ module.exports = function(environment) {
       'media-src': "'self'"
     }
   };
-
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;

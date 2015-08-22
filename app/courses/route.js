@@ -1,7 +1,11 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
+<<<<<<< HEAD
   model: function() {
+    // Uncomment this when the API is ready
+    // return this.store.findAll('courses');
+
     return [
       {
         id: 1,

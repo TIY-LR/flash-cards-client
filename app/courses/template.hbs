@@ -1,1 +1,7 @@
-{{outlet}}
+<h3>Different Courses</h3>
+
+{{#each model as |courses|}}
+    <a href="{{courses.name}}">{{courses.name}}</a>
+
+
+{{/each}}

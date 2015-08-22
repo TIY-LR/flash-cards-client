@@ -6,11 +6,11 @@ export default Ember.Route.extend({
   },
 
   actions: {
-    save: function(card, data) {
+    save: function(data) {
+      var card = this.modelFor('cards.create');
       card.setProperties(data);
-
       card.save().then(() => {
-        this.transitionTo('cards');
+        this.transitionTo('cards.index');
       });
     }
   }

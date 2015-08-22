@@ -17,18 +17,18 @@ module.exports = function(environment) {
       // Here you can pass flags/options to your application instance
       // when it is created
     },
-  contentSecurityPolicy: {
-    'default-src': "'none'",
-    'script-src': "'self'",
-    'font-src': "'self'",
-    'connect-src': "'self' http://flashcardsweb.azurewebsites.net",
-    'img-src': "'self' data:",
-    'style-src': "'self'",
-    'media-src': "'self'"
+    sassOptions: {
+      includePaths: ['bower_components/materialize/sass']
     },
-  sassOptions: {
-  includePaths: ['bower_components/materialize/sass']
-  }
+    contentSecurityPolicy: {
+      'default-src': "'none'",
+      'script-src': "'self'",
+      'font-src': "'self'",
+      'connect-src': "'self' http://flashcardsweb.azurewebsites.net",
+      'img-src': "'self' data:",
+      'style-src': "'self'",
+      'media-src': "'self'"
+    }
   };
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;

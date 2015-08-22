@@ -1,0 +1,5 @@
+{{#md-collection content=model as |course|}}
+    {{#link-to 'courses.card-sets' course.id class='collection-item'}}
+        {{course.name}}
+    {{/link-to}}
+{{/md-collection}}

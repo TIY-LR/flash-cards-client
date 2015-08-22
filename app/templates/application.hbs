@@ -1,40 +1,14 @@
-<h1 id="title">Welcome to The Flashyard!</h1>
+{{#md-navbar name='Flashyard' class='indigo'}}
+  <!-- A workaround to get the "active" class
+    to apply to the active <li> automatically -->
+  {{#link-to 'courses' tagName='li'}}
+    {{link-to 'Courses' 'courses'}}
+  {{/link-to}}
+{{/md-navbar}}
 
-{{#md-card title="Yard-Cards"
-    titleClass="grey-text"
-    image="images/ember-9a2571346ddbec766fbe11304e74e784.png"
-    id="image-card"}}
-
-    {{#md-card-content}}
-        I am a very simple card. I am good at containing
-        small bits of information. I am convenient because
-        I require little markup to use effectively. if you have a yearning for learning, the flashyard is your new memory hub.
-
-        So now..Ask yourself...Are you ready to get schooled... Click on whatever knowledge you want us to drop..
-    {{/md-card-content}}
-
-    {{#md-card-action}}
-        {{#link-to "cards"}}Github{{/link-to}}
-        {{#link-to "cards"}}HTML{{/link-to}}
-        {{#link-to "cards"}}CSS{{/link-to}}
-        {{#link-to "cards"}}Javascript{{/link-to}}
-    {{/md-card-action}}
-{{/md-card}}
-
+<div class="container">
     {{outlet}}
-    <div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="images/office.jpg">
-    </div>
-    <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-      <p><a href="#">This is a link</a></p>
-    </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-      <p>Here is some more information about this product that is only revealed once clicked on.</p>
-    </div>
-  </div>
+</div>
 
 {{!-- ember-cli-materialize modal container --}}
 {{md-modal-container}}

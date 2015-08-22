@@ -208,10 +208,10 @@
 	"buffers":
 	[
 		{
-			"file": "public/crossdomain.xml",
+			"file": ".gitignore",
 			"settings":
 			{
-				"buffer_size": 585,
+				"buffer_size": 247,
 				"line_ending": "Unix"
 			}
 		}
@@ -277,11 +277,12 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/marvinsantiago/IronYard/flash-cards-client",
-		"/Users/marvinsantiago/IronYard/flash-cards-client/public"
+		"/Users/marvinsantiago/IronYard/flash-cards-client"
 	],
 	"file_history":
 	[
+		"/Users/marvinsantiago/.gitignore_global",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/.ember-cli",
 		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/styles/_fullmenu.scss",
 		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/components/category-menu/template.hbs",
 		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/styles/app.scss",
@@ -407,9 +408,7 @@
 		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/view/formview.js",
 		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/view/item.js",
 		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/view/tag.js",
-		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/view/form.js",
-		"/Users/marvinsantiago/IronYard/week-7/lesson-4/.git/COMMIT_EDITMSG",
-		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/collection/bm-collection.js"
+		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/view/form.js"
 	],
 	"find":
 	{
@@ -547,11 +546,11 @@
 			[
 				{
 					"buffer": 0,
-					"file": "public/crossdomain.xml",
-					"semi_transient": true,
+					"file": ".gitignore",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 585,
+						"buffer_size": 247,
 						"regions":
 						{
 						},
@@ -564,7 +563,7 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/XML/XML.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -705,7 +704,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 134.0,
+	"side_bar_width": 248.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

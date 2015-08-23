@@ -1,2 +1,29 @@
 @import 'materialize';
 @import 'ember-cli-materialize';
+
+.background {
+    transition: opacity 800ms;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+
+    height: 100vh;
+    width: 100vw;
+    content: "";
+    background: url('/images/sky.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0;
+
+    &.active {
+        opacity: 1;
+    }
+}
+
+.liquid-child {
+    padding: 1px;
+}
+

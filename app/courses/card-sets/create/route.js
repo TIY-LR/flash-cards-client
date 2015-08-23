@@ -10,7 +10,7 @@ export default Ember.Route.extend({
       cardset.setProperties(data);
 
       cardset.save().then(() => {
-        this.transitionTo('courses');
+        this.transitionTo('courses.card-sets');
       });
     }
 

@@ -1,4 +1,4 @@
-{{#md-navbar name='Flashyard' class='indigo'}}
+{{#md-navbar name='Flashyard' class='blue-grey darken-3'}}
   <!-- A workaround to get the "active" class
     to apply to the active <li> automatically -->
   {{#link-to 'courses' tagName='li'}}
@@ -6,8 +6,10 @@
   {{/link-to}}
 {{/md-navbar}}
 
+<div class="background {{if background 'active' ''}}"></div>
+
 <div class="container">
-    {{outlet}}
+    {{liquid-outlet}}
 </div>
 
 {{!-- ember-cli-materialize modal container --}}

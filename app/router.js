@@ -11,7 +11,7 @@ Router.map(function() {
         this.route('create');
     this.route('card-sets', {path: '/:course_id/card-sets'},  function() {
       this.route('create');
-      this.route('cards', {path: '/:card_sets_id/cards'}, function() {
+      this.route('cards', {path: '/:card_set_id/cards'}, function() {
         this.route('index', {path: '/'});
         this.route('create', {path: '/new'});
 

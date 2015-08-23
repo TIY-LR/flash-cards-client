@@ -1,6 +1,7 @@
 @import 'materialize';
 @import 'ember-cli-materialize';
 
+
 .background {
     transition: opacity 800ms;
     position: absolute;
@@ -26,4 +27,5 @@
 .liquid-child {
     padding: 1px;
 }
+
 

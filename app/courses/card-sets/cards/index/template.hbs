@@ -1,12 +1,14 @@
-<li>{{#link-to 'courses.card-sets.cards.create'}}New Items{{/link-to}}</li>
+<li>{{#link-to 'courses.card-sets.cards.create'}}Create New Card{{/link-to}}</li>
 
 {{#each model.cards as |card|}}
-    {{#md-card
-        title=card.frontText
+<div class="row">
+    <div class="col s12">
+    <div class="col s6">
+    {{#md-card title=card.frontText
         activator=true}}
 
         {{#md-card-content}}
-
+        <a href="#" {{action 'deleteCard' card}} class="secondary-content">Delete</a>
         {{/md-card-content}}
 
         {{#md-card-reveal}}
@@ -14,7 +16,11 @@
         {{/md-card-reveal}}
 
     {{/md-card}}
+    </div>
+    </div>
+</div>
 {{/each}}
+
 
 {{!-- {{#md-card title="Card Title"
     image="images/ember-cli-97c3f0d28532b75fa808f590062af5de.png"

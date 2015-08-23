@@ -5,11 +5,11 @@ export default Ember.Route.extend({
     return this.store.findById('card', params.id);
   },
 
-    actions: {
-    deleteCourse: function(course) {
-      if (window.confirm('Are you sure you want to delete?')) {
-        course.destroyRecord();
-    }
-  }
-}
+//     actions: {
+//     deleteCard: function(card) {
+//       if (window.confirm('Are you sure you want to delete?')) {
+//         card.destroyRecord();
+//     }
+//   }
+// }
 });

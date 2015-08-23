@@ -2,16 +2,15 @@
 
 {{#each model.cards as |card|}}
     {{#md-card
-        image='images/test'
-        title=card.front
+        title=card.frontText
         activator=true}}
 
         {{#md-card-content}}
-            {{card.front}}
+            {{card.frontText}}
         {{/md-card-content}}
 
         {{#md-card-reveal}}
-            {{card.back}}
+            {{card.backText}}
         {{/md-card-reveal}}
 
     {{/md-card}}

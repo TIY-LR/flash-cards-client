@@ -207,14 +207,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": ".gitignore",
-			"settings":
-			{
-				"buffer_size": 247,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -277,12 +269,60 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/marvinsantiago/IronYard/flash-cards-client"
+		"/Users/marvinsantiago/IronYard/flash-cards-client",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/courses",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/courses/card-sets",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/courses/card-sets/cards",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/courses/card-sets/cards/index",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/courses/card-sets/create",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/models"
 	],
 	"file_history":
 	[
-		"/Users/marvinsantiago/.gitignore_global",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/index/route.js",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/courses/route.js",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/courses/create/route.js",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/courses/card-sets/cards/create/route.js",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/courses/card-sets/create/route.js",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/models/card-set.js",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/courses/card-sets/cards/index/template.hbs",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/courses/card-sets/cards/show/template.hbs",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/courses/card-sets/template.hbs",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/courses/template.hbs",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/templates/application.hbs",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/router.js",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/models/card.js",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/courses/index/template.hbs",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/courses/card-sets/cards/route.js",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/components/new-cardset-form/component.js",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/courses/card-sets/index/template.hbs",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/components/new-cardset-form/template.hbs",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/courses/card-sets/create/template.hbs",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/models/course.js",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/components/new-course-form/component.js",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/components/new-course-form/template.hbs",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/courses/create/template.hbs",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/mixins/resetable-form.js",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/components/new-form/component.js",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/courses/card-sets/cards/create/template.hbs",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/components/new-form/template.hbs",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/courses/card-sets/route.js",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/flash-cards.sublime-projec",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/bower.json",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/config/environment.js",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/models/card-sets.js",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/models/courses.js",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/courses/card-sets/cards/show/route.js",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/cards/create/route.js",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/cards/create/template.hbs",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/cards/index/route.js",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/cards/index/template.hbs",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/adapters/application.js",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/app/cards/show/route.js",
 		"/Users/marvinsantiago/IronYard/flash-cards-client/.ember-cli",
+		"/Users/marvinsantiago/IronYard/flash-cards-client/.gitignore",
+		"/Users/marvinsantiago/.gitignore_global",
 		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/styles/_fullmenu.scss",
 		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/components/category-menu/template.hbs",
 		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/styles/app.scss",
@@ -367,58 +407,18 @@
 		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/templates/menu/show.hbs",
 		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/templates/menu/update.hbs",
 		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/routes/menu-item/update.js",
-		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/routes/menu-item/show.js",
-		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/routes/menu-item/filtered.js",
-		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/routes/menu-item/create.js",
-		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/routes/menu-item.js",
-		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/components/admin-form.js",
-		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/routes/admin/show.js",
-		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/templates/admin.hbs",
-		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/serializers/application.js",
-		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/models/admin.js",
-		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/routes/admin.js",
-		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/routes/admin/filtered.js",
-		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/templates/admin/filtered.hbs",
-		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/routes/admin/update.js",
-		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/routes/cms/update.js",
-		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/routes/admin/create.js",
-		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/templates/admin/show.hbs",
-		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/templates/components/admin-form.hbs",
-		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/templates/admin/update.hbs",
-		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/templates/admin/create.hbs",
-		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/adapters/admin.js",
-		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/package.json",
-		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/index.html",
-		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/router.js",
-		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/views/detailview.js",
-		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/views/sidebarview.js",
-		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/views/formview.js",
-		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/model/cms.js",
-		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/templates/sidebar.hbs",
-		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/public/index.html",
-		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/templates/form.hbs",
-		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/index.js",
-		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/collection/cms.js",
-		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/Brocfile.js",
-		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/templates/detail.hbs",
-		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/templates/item.hbs",
-		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/templates/tag.hbs",
-		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/view/tagview.js",
-		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/view/itemview.js",
-		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/view/formview.js",
-		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/view/item.js",
-		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/view/tag.js",
-		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/view/form.js"
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/routes/menu-item/show.js"
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 51.0
 	},
 	"find_in_files":
 	{
-		"height": 109.0,
+		"height": 235.0,
 		"where_history":
 		[
+			"/Users/marvinsantiago/IronYard/flash-cards-client/app"
 		]
 	},
 	"find_state":
@@ -426,6 +426,11 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"{{liquid-outlet}}",
+			"back",
+			"front",
+			"tmp",
+			"cardsets",
 			"contact",
 			"contact.",
 			"contact",
@@ -531,6 +536,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"{{outlet}}"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -541,37 +547,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": ".gitignore",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 247,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -624,8 +601,24 @@
 		"selected_items":
 		[
 			[
+				"inderoute.js",
+				"app/index/route.js"
+			],
+			[
+				"cardset",
+				"app/models/card-set.js"
+			],
+			[
 				"router",
 				"app/router.js"
+			],
+			[
+				"ro",
+				"app/router.js"
+			],
+			[
+				".e",
+				".ember-cli"
 			],
 			[
 				"editroute",
@@ -704,7 +697,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 248.0,
+	"side_bar_width": 190.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
